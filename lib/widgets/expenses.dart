@@ -71,7 +71,7 @@ class _ExpensesState extends State<Expenses> {
     // print("Width ${MediaQuery.of(context).size.width}");
     // print("Height ${MediaQuery.of(context).size.height}");
     Widget mainContent = const Center(
-      child: Text('No Expenses Founbd. Click + to add one!'),
+      child: Text('No Expenses Found. Click + to add one!'),
     );
     if (_registeredExpenses.isNotEmpty) {
       mainContent = ExpensesList(
